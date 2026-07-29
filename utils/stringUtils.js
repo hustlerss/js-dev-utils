@@ -477,3 +477,10 @@ function stripSpecialChars(str) {
 function stripSpecialChars(str) {
   return str.replace(/[^a-zA-Z0-9 ]/g, '');
 }
+
+/**
+ * Checks if a string is a valid email
+ */
+function isEmail(str) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
+}
