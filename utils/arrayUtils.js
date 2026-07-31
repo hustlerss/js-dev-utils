@@ -652,3 +652,10 @@ function shuffle(arr) {
   }
   return arr;
 }
+
+/**
+ * Returns min value in an array
+ */
+function minVal(arr) {
+  return Math.min(...arr);
+}
