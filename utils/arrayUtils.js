@@ -659,3 +659,10 @@ function shuffle(arr) {
 function minVal(arr) {
   return Math.min(...arr);
 }
+
+/**
+ * Returns the max value in an array
+ */
+function maxVal(arr) {
+  return Math.max(...arr);
+}
