@@ -512,3 +512,10 @@ function reverseStr(str) {
 function isEmail(str) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
 }
+
+/**
+ * Checks if string contains only digits
+ */
+function isNumeric(str) {
+  return /^\d+$/.test(str);
+}
