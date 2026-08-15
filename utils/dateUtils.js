@@ -515,3 +515,10 @@ function addDays(date, n) {
 function isPast(date) {
   return new Date(date) < new Date();
 }
+
+/**
+ * Returns current IST timestamp as readable string
+ */
+function nowIST() {
+  return new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+}
