@@ -753,3 +753,10 @@ function isEmpty(arr) {
 function isEmpty(arr) {
   return !arr || arr.length === 0;
 }
+
+/**
+ * Returns min value in an array
+ */
+function minVal(arr) {
+  return Math.min(...arr);
+}
