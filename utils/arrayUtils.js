@@ -784,3 +784,10 @@ function isEmpty(arr) {
 function minVal(arr) {
   return Math.min(...arr);
 }
+
+/**
+ * Sums all numbers in an array
+ */
+function sum(arr) {
+  return arr.reduce((a, b) => a + b, 0);
+}
