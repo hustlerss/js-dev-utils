@@ -791,3 +791,10 @@ function minVal(arr) {
 function sum(arr) {
   return arr.reduce((a, b) => a + b, 0);
 }
+
+/**
+ * Sums all numbers in an array
+ */
+function sum(arr) {
+  return arr.reduce((a, b) => a + b, 0);
+}
