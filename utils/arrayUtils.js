@@ -805,3 +805,13 @@ function sum(arr) {
 function minVal(arr) {
   return Math.min(...arr);
 }
+
+/**
+ * Groups array items by a key
+ */
+function groupBy(arr, key) {
+  return arr.reduce((acc, item) => {
+    (acc[item[key]] = acc[item[key]] || []).push(item);
+    return acc;
+  }, {});
+}
