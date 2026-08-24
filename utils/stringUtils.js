@@ -582,3 +582,10 @@ function reverseStr(str) {
 function reverseStr(str) {
   return str.split('').reverse().join('');
 }
+
+/**
+ * Reverses a string
+ */
+function reverseStr(str) {
+  return str.split('').reverse().join('');
+}
