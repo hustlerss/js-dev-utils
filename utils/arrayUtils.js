@@ -815,3 +815,10 @@ function groupBy(arr, key) {
     return acc;
   }, {});
 }
+
+/**
+ * Checks if array is empty
+ */
+function isEmpty(arr) {
+  return !arr || arr.length === 0;
+}
