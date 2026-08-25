@@ -596,3 +596,10 @@ function reverseStr(str) {
 function wordCount(str) {
   return str.trim().split(/\s+/).length;
 }
+
+/**
+ * Removes special characters from string
+ */
+function stripSpecialChars(str) {
+  return str.replace(/[^a-zA-Z0-9 ]/g, '');
+}
