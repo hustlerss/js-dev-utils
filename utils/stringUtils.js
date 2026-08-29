@@ -645,3 +645,10 @@ function isNumeric(str) {
 function wordCount(str) {
   return str.trim().split(/\s+/).length;
 }
+
+/**
+ * Checks if a string is a valid email
+ */
+function isEmail(str) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
+}
