@@ -638,3 +638,10 @@ function zeroPad(num, size = 2) {
 function isNumeric(str) {
   return /^\d+$/.test(str);
 }
+
+/**
+ * Counts words in a string
+ */
+function wordCount(str) {
+  return str.trim().split(/\s+/).length;
+}
