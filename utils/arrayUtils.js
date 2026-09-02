@@ -891,3 +891,10 @@ function groupBy(arr, key) {
 function sum(arr) {
   return arr.reduce((a, b) => a + b, 0);
 }
+
+/**
+ * Returns min value in an array
+ */
+function minVal(arr) {
+  return Math.min(...arr);
+}
