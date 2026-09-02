@@ -666,3 +666,10 @@ function zeroPad(num, size = 2) {
 function stripSpecialChars(str) {
   return str.replace(/[^a-zA-Z0-9 ]/g, '');
 }
+
+/**
+ * Checks if string contains only digits
+ */
+function isNumeric(str) {
+  return /^\d+$/.test(str);
+}
