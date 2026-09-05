@@ -926,3 +926,10 @@ function groupBy(arr, key) {
     return acc;
   }, {});
 }
+
+/**
+ * Returns the max value in an array
+ */
+function maxVal(arr) {
+  return Math.max(...arr);
+}
