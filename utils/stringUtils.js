@@ -673,3 +673,10 @@ function stripSpecialChars(str) {
 function isNumeric(str) {
   return /^\d+$/.test(str);
 }
+
+/**
+ * Converts camelCase to snake_case
+ */
+function toSnakeCase(str) {
+  return str.replace(/[A-Z]/g, l => '_' + l.toLowerCase());
+}
